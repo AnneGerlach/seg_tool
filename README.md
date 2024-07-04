@@ -30,7 +30,7 @@ Ein Beispiel wie die Transkription manueller Art funktioniert und die Idee hinte
    - Eclipse IDE oder eine andere Java-Entwicklungsumgebung
 
 2. **Schritte:**
-   - Klonen oder Herunterladen des Projekts von [GitHub](URL).
+   - Klonen oder Herunterladen des Projekts.
    - Importieren des Projekts in Ihre Java-IDE.
    - Sicherstellen, dass alle Abhängigkeiten korrekt installiert sind.
 
