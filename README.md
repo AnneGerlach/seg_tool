@@ -4,6 +4,9 @@
 
 Das SEG_TOOL wurde entwickelt, um die Frage zu beantworten: **"Kann eine akustische Sequenz auf Phonebene segmentiert werden?"** Die Arbeit von Machelett (1996) legt nahe, dass Segmentgrenzen im Spektrogramm visuell erkennbar sind. Unser Tool zielt darauf ab, diese Segmentgrenzen ohne visuellen Input automatisiert zu erkennen, indem es Formantwerte als Datenbasis nutzt. Diese README bietet eine detaillierte Anleitung zur Nutzung des Tools und beschreibt die technischen Details seiner Implementierung.
 
+Ein Beispiel wie die Transkription manueller Art funktioniert und die Idee hinter dem Seg-Tool:
+![Formantenanalyse](docs/phonetische_transkription.png)
+
 ## Übersicht
 
 1. [Einleitung](#einleitung)
@@ -47,6 +50,8 @@ Das SEG_TOOL wurde entwickelt, um die Frage zu beantworten: **"Kann eine akustis
 - **Formant**: Jedes `Formant`-Objekt enthält Frequenz- und Bandbreitenwerte.
 - **Loesungssatz**: Enthält eine Liste von `Trennstelle`-Objekten.
 - **Trennstelle**: Enthält die Position und Kennwerte einer Segmentierungsgrenze.
+
+![Datensatz](docs/data_set.png)
 
 ### Analysestruktur
 
