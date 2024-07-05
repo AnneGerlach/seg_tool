@@ -1,4 +1,4 @@
-# SEG_TOOL - README
+# SEG_TOOL (2019)
 
 ## Einleitung
 

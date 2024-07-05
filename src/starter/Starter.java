@@ -34,7 +34,7 @@ public class Starter {
 		File source = null;									//hier kommt Datei von choose rein
 															//gleich null, weil sonst unten nach dem if ein else nötig wäre, der in jedem fall source einen wert braucht, oder hier eben schon dem source direkt denn null wert geben (eben alterniv sonst else source = null)
 		JFileChooser chooser = new JFileChooser();
-		chooser.setCurrentDirectory(new File("C:/Users/Anne/Desktop/Uni_Sachen/Master_Informationsverarbeitung/Projekt_Segmentation/Konstanten_Berechnung"));     //um Ort auszuwählen wo datei liegt (hier aber erstmal raus)
+		chooser.setCurrentDirectory(new File("path_for_file/Konstanten_Berechnung"));     //um Ort auszuwählen wo datei liegt (hier aber erstmal raus)
 		
 		//die nächsten 2 Zeilen: nur zur Modifikation des Fensters, hier wird noch nichts ausgewählt
 		chooser.setDialogTitle("Bitte Quelldatei wählen (txt)"); //wir sagen dem Objekt was es kann, zb hier dass es den Quelltext so undso hat
